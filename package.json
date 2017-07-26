@@ -1,0 +1,34 @@
+{
+  "name": "chatbot-iii",
+  "version": "0.1.0",
+  "description": "superscript chat bot intergrated into a gitter room",
+  "main": "index.js",
+  "scripts": {
+    "parse-bot-scripts": "node ./node_modules/superscript/lib/bin/parse.js -p ./chat -o ./data/data.json -f true",
+    "start-faye-client": "node index.js",
+    "start": "npm run parse-bot-scripts && npm run start-faye-client",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmordan/chatbot-iii.git"
+  },
+  "keywords": [
+    "superscript",
+    "faye",
+    "chatbot",
+    "gitter"
+  ],
+  "author": "bmordan",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bmordan/chatbot-iii/issues"
+  },
+  "homepage": "https://github.com/bmordan/chatbot-iii#readme",
+  "dependencies": {
+    "config": "^1.26.1",
+    "faye": "^1.2.4",
+    "request": "^2.81.0",
+    "superscript": "^1.1.1"
+  }
+}

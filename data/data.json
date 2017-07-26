@@ -1,0 +1,90 @@
+{
+    "topics": {
+        "greetings": {
+            "name": "greetings",
+            "flags": {
+                "keep": "keep"
+            },
+            "keywords": [],
+            "filter": null,
+            "gambits": [
+                "eJNq9mYJ",
+                "g4sHWf1b"
+            ]
+        }
+    },
+    "gambits": {
+        "eJNq9mYJ": {
+            "trigger": {
+                "flags": {
+                    "order": "ordered"
+                },
+                "filter": null,
+                "question": false,
+                "raw": "(hi|hello|greetings|hola|hay)",
+                "clean": "(?=^|\\s)\\s*(hi|hello|greetings|hola|hay)(?=\\s|$)\\s*"
+            },
+            "replies": [
+                "APZkBtT1",
+                "oZbzauO6",
+                "KMiF4378",
+                "17f4eEwu"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "greetings"
+        },
+        "g4sHWf1b": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "whats up",
+                "clean": "what is up"
+            },
+            "replies": [
+                "dT6dQ1bc",
+                "hNcnUihP"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "greetings"
+        }
+    },
+    "replies": {
+        "APZkBtT1": {
+            "string": "hello you",
+            "filter": null,
+            "keep": false
+        },
+        "oZbzauO6": {
+            "string": "hi again",
+            "filter": null,
+            "keep": false
+        },
+        "KMiF4378": {
+            "string": "yes hello",
+            "filter": null,
+            "keep": false
+        },
+        "17f4eEwu": {
+            "string": "what you need?",
+            "filter": null,
+            "keep": false
+        },
+        "dT6dQ1bc": {
+            "string": "just chilling",
+            "filter": null,
+            "keep": false
+        },
+        "hNcnUihP": {
+            "string": "waiting for something to do",
+            "filter": null,
+            "keep": false
+        }
+    },
+    "checksums": {
+        "./chat/main.ss": "cce15f49ea24e6b2392ebb2a60b6555c26b4219d"
+    },
+    "version": 1
+}
